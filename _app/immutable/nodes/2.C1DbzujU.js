@@ -1,0 +1,4 @@
+import"../chunks/DsnmJJEf.js";import{i as p}from"../chunks/CBRcAkwC.js";import{p as l,o as c,f as n,h as f,a as d,b as o,c as u,g as h,m as x,$ as g,i as v,n as y}from"../chunks/BWSXaxeE.js";import{F as _,c as F}from"../chunks/oRUvPJhn.js";var b=n('<meta name="description" content="Welcome to Flexilte! Explore dynamic layouts and flexible UI components."/>'),j=n(`<!> <div class="
+   p-4 text-center text-primary-800 underline
+   dark:text-primary-100
+ "><a href="frontpage.json">Click here to see the JSON of this page</a></div>`,1);function E(r,s){l(s,!1);let t=x({});c(async()=>{const e=await fetch("frontpage.json");h(t,await e.json())}),p();var a=j();f(e=>{var m=b();g.title="Flexilte",o(e,m)});var i=d(a);_(i,{get layout(){return v(t)},get components(){return F}}),y(2),o(r,a),u()}export{E as component};

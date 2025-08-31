@@ -1,0 +1,4 @@
+import"../chunks/DsnmJJEf.js";import{i as p}from"../chunks/CBRcAkwC.js";import{p as c,o as d,f as s,h as u,a as x,b as r,c as f,$ as v,i as h,d as g,g as y,m as _,r as b,n as F}from"../chunks/BWSXaxeE.js";import{F as j,c as k}from"../chunks/oRUvPJhn.js";var w=s('<meta name="description" content="See a live example of Flexilte in action. Explore layout and debug features."/>'),E=s(`<div class="container mx-auto px-4"><!></div> <div class="
+   p-4 text-center text-primary-800 underline
+   dark:text-primary-100
+ "><a href="example.json">Click here to see the JSON of this page</a></div>`,1);function M(n,i){c(i,!1);let a=_({});d(async()=>{const e=await fetch("example.json");y(a,await e.json())}),p();var t=E();u(e=>{var m=w();v.title="Flexilte Example",r(e,m)});var o=x(t),l=g(o);j(l,{get layout(){return h(a)},get components(){return k},debug:!0}),b(o),F(2),r(n,t),f()}export{M as component};
